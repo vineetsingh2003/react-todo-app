@@ -1,0 +1,25 @@
+
+input{
+    height: 40px;
+    width: 100%;
+    max-width: 360px;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin: 10px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: border-color .15s ease, box-shadow .15s ease;
+    outline: none;
+}
+
+input:focus{
+    border-color: #4c9aff;
+    box-shadow: 0 6px 16px rgba(76,154,255,0.12);
+}
+
+input::placeholder{
+    color: #9aa3ad;
+    opacity: 1;
+}
+
